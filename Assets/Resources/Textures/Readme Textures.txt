@@ -1,0 +1,1 @@
+Omnidirectional images are placed here
