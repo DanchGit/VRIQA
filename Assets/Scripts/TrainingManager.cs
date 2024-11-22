@@ -30,7 +30,7 @@ public class TrainingManager : MonoBehaviour
     public UnityEvent OnCanvasActivation = null;
     [Serializable] public class NewEnvironment : UnityEvent<Environment> { }
     public NewEnvironment OnNewEnvironment = null;
-    private float timePerTestImage = 1.0f;
+    private float timePerTestImage = 5.0f;
     private int environmentIndex = 0;
     private int userId;
     private int session;

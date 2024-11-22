@@ -32,7 +32,7 @@ public class MainManager : MonoBehaviour
     [Serializable] public class NewEnvironment : UnityEvent<Environment> { }
     public NewEnvironment OnNewEnvironment = null;
 
-    private float timePerTestImage = 15.0f;
+    private float timePerTestImage = 10.0f;
     private int environmentIndex = 0;
     private int userId;
     private int session;

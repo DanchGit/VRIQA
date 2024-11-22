@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4526172, g: 0.43521473, b: 0.4434725, a: 1}
+  m_IndirectSpecularColor: {r: 0.5408756, g: 0.5239484, b: 0.4999684, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3100,46 +3100,45 @@ MonoBehaviour:
     m_ContentIndex: 2
     m_FocusScalingFactor: 1
     m_ContextScalingFactor: 1
-    m_Background: {fileID: 2800000, guid: ed5b85ba5000bee438a10bf944bfdc57, type: 3}
+    m_Background: {fileID: 2800000, guid: 76adcd4691713264987d86e38e4309b5, type: 3}
   - m_WorldRotation: 120
     m_ContentIndex: 2
     m_FocusScalingFactor: 1
-    m_ContextScalingFactor: 0.75
-    m_Background: {fileID: 2800000, guid: ed5b85ba5000bee438a10bf944bfdc57, type: 3}
+    m_ContextScalingFactor: 0.8
+    m_Background: {fileID: 2800000, guid: 76adcd4691713264987d86e38e4309b5, type: 3}
   - m_WorldRotation: 180
     m_ContentIndex: 2
     m_FocusScalingFactor: 1
-    m_ContextScalingFactor: 0.65
-    m_Background: {fileID: 2800000, guid: ed5b85ba5000bee438a10bf944bfdc57, type: 3}
+    m_ContextScalingFactor: 0.6
+    m_Background: {fileID: 2800000, guid: 76adcd4691713264987d86e38e4309b5, type: 3}
   - m_WorldRotation: 240
     m_ContentIndex: 2
     m_FocusScalingFactor: 1
-    m_ContextScalingFactor: 0.5
-    m_Background: {fileID: 2800000, guid: ed5b85ba5000bee438a10bf944bfdc57, type: 3}
+    m_ContextScalingFactor: 0.4
+    m_Background: {fileID: 2800000, guid: 76adcd4691713264987d86e38e4309b5, type: 3}
   - m_WorldRotation: 60
     m_ContentIndex: 3
-    m_FocusScalingFactor: 1
-    m_ContextScalingFactor: 1
-    m_Background: {fileID: 2800000, guid: b87334ba67202dc4e8fd869ba7c66e52, type: 3}
+    m_FocusScalingFactor: 0.8
+    m_ContextScalingFactor: 0.6
+    m_Background: {fileID: 2800000, guid: 76adcd4691713264987d86e38e4309b5, type: 3}
   - m_WorldRotation: 120
     m_ContentIndex: 3
-    m_FocusScalingFactor: 1
-    m_ContextScalingFactor: 0.75
-    m_Background: {fileID: 2800000, guid: b87334ba67202dc4e8fd869ba7c66e52, type: 3}
+    m_FocusScalingFactor: 0.8
+    m_ContextScalingFactor: 0.4
+    m_Background: {fileID: 2800000, guid: 76adcd4691713264987d86e38e4309b5, type: 3}
   - m_WorldRotation: 180
     m_ContentIndex: 3
-    m_FocusScalingFactor: 1
-    m_ContextScalingFactor: 0.65
-    m_Background: {fileID: 2800000, guid: b87334ba67202dc4e8fd869ba7c66e52, type: 3}
+    m_FocusScalingFactor: 0.6
+    m_ContextScalingFactor: 0.4
+    m_Background: {fileID: 2800000, guid: 76adcd4691713264987d86e38e4309b5, type: 3}
   - m_WorldRotation: 240
     m_ContentIndex: 3
-    m_FocusScalingFactor: 1
-    m_ContextScalingFactor: 0.5
-    m_Background: {fileID: 2800000, guid: b87334ba67202dc4e8fd869ba7c66e52, type: 3}
+    m_FocusScalingFactor: 0.4
+    m_ContextScalingFactor: 0.2
+    m_Background: {fileID: 2800000, guid: 76adcd4691713264987d86e38e4309b5, type: 3}
   m_RandomTrainingEnvironments: []
   m_MainEnvironments: []
   m_RandomMainEnvironments: []
-  MainWorldRotations: 0000000024000000480000006c00000090000000b4000000d8000000fc0000002001000044010000
   MainContentIndex: 0100000002000000030000000400000005000000060000000700000008000000090000000a000000
   textures: []
 --- !u!1 &1368691548

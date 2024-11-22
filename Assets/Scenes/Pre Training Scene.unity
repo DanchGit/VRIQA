@@ -261,14 +261,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'In this experiment, several 360-degree images will be shown to you. You
-    will have 15 seconds to look at each image. We encourage you to move your head
-    and look around. After each image, you will be asked about the quality of the
-    scene. Use controllers to submit your score.
+    will have 10 seconds to look at each image. You are encouraged to move your head,
+    and eyes to look around. After each image, you will be asked about the quality
+    of the scene. Use controllers to submit your score.
 
 
-    First, you will go through
-    a training sessions to get familiar with the experiment. Your scores during the
-    training session will be exluded in the end. When ready, choose the button bellow. '
+    First, you will go
+    through a training sessions to get familiar with the experiment. Your scores
+    during the training session will be exluded in the end. Images will only be shown
+    for 5 seconds here.
+
+    When ready, choose the button bellow. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f17e8bb3967fe14093d5fec798fffd9, type: 2}
   m_sharedMaterial: {fileID: 21700449227511232, guid: 2f17e8bb3967fe14093d5fec798fffd9, type: 2}
@@ -926,7 +929,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -400}
+  m_AnchoredPosition: {x: 0, y: -459}
   m_SizeDelta: {x: 800, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &467106260

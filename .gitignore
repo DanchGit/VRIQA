@@ -72,6 +72,16 @@ ScaffoldingReadMe.txt
 # StyleCop
 StyleCopReport.xml
 
+#Textures
+Assets/Resources/outdoor_umbrellas_16k.hdr
+Assets/Resources/snowy_forest_16k.hdr
+Assets/Resources/Textures/DSC_8274 - DSC_8302.tif
+Assets/Resources/Textures/medieval_cafe_16k.hdr
+Assets/Resources/Textures/rogland_clear_night_16k.hdr
+Assets/Resources/Textures/snowscene.png
+Assets/Resources/Textures/snowy_forest_16k.hdr
+
+
 # Files built by Visual Studio
 *_i.c
 *_p.c
@@ -115,6 +125,7 @@ ipch/
 *.cachefile
 *.VC.db
 *.VC.VC.opendb
+
 
 # Visual Studio profiler
 *.psess

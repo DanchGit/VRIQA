@@ -1,0 +1,15 @@
+UserId,Age,Session,Gender,Education,Experience
+601,23,1,Female,Undergraduate,No Experience
+602,25,1,Male,Undergraduate,No Experience
+603,24,1,Male,High School,No Experience
+604,23,1,Female,Undergraduate,No Experience
+605,26,1,Male,Undergraduate,Used Few Times
+606,25,1,Male,Undergraduate,Occasional User
+607,27,1,Female,Undergraduate,Used Few Times
+608,23,1,Female,Undergraduate,Used Few Times
+609,24,1,Female,Undergraduate,Used Few Times
+610,22,1,Female,Undergraduate,Used Few Times
+611,24,1,Female,Undergraduate,Used Few Times
+612,29,1,Male,Undergraduate,Used Few Times
+613,25,1,Male,Undergraduate,Occasional User
+614,23,1,Male,Undergraduate,Used Few Times

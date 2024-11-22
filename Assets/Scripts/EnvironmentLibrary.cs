@@ -7,10 +7,10 @@ using UnityEngine.UIElements;
 public class EnvironmentLibrary : MonoBehaviour
 {
     // number of contents
-    private static int contentCount = 10;
+    private static int contentCount = 5;
 
     // number of distortions
-    private static int distortionCount = 5;
+    private static int distortionCount = 10;
 
     // Initialize training environments, they need to be set through inspector manually. Randomized to mitigate order bias.
     public List<Environment> m_TrainingEnvironments = null;
@@ -44,20 +44,38 @@ public class EnvironmentLibrary : MonoBehaviour
         {
             scalingFactors.Add(new Tuple<float, float>(1.0f, 1.0f));
             scalingFactors.Add(new Tuple<float, float>(1.0f, 0.8f));
-            scalingFactors.Add(new Tuple<float, float>(1.0f, 0.7f));
             scalingFactors.Add(new Tuple<float, float>(1.0f, 0.6f));
-            scalingFactors.Add(new Tuple<float, float>(1.0f, 0.5f));
+            scalingFactors.Add(new Tuple<float, float>(1.0f, 0.4f));
+            scalingFactors.Add(new Tuple<float, float>(1.0f, 0.2f));
+            scalingFactors.Add(new Tuple<float, float>(0.8f, 0.6f));
+            scalingFactors.Add(new Tuple<float, float>(0.8f, 0.4f));
+            scalingFactors.Add(new Tuple<float, float>(0.8f, 0.2f));
+            scalingFactors.Add(new Tuple<float, float>(0.6f, 0.4f));
+            scalingFactors.Add(new Tuple<float, float>(0.6f, 0.2f));
         } else
         {
             scalingFactors.Add(new Tuple<float, float>(1.0f, 1.0f));
-            scalingFactors.Add(new Tuple<float, float>(1.0f, 0.9f));
             scalingFactors.Add(new Tuple<float, float>(1.0f, 0.8f));
-            scalingFactors.Add(new Tuple<float, float>(1.0f, 0.7f));
             scalingFactors.Add(new Tuple<float, float>(1.0f, 0.6f));
+            scalingFactors.Add(new Tuple<float, float>(1.0f, 0.4f));
+            scalingFactors.Add(new Tuple<float, float>(1.0f, 0.2f));
+            scalingFactors.Add(new Tuple<float, float>(0.8f, 0.6f));
+            scalingFactors.Add(new Tuple<float, float>(0.8f, 0.4f));
+            scalingFactors.Add(new Tuple<float, float>(0.8f, 0.2f));
+            scalingFactors.Add(new Tuple<float, float>(0.6f, 0.4f));
+            scalingFactors.Add(new Tuple<float, float>(0.6f, 0.2f));
         }
 
         // loads all the omnidirectional images from the folder named Resournce
         textures = Resources.LoadAll("Textures");
+        if (textures.Length == 0)
+        {
+            Debug.LogError("No textures found in the Resources/Textures folder.");
+        }
+        else
+        {
+            Debug.Log($"Loaded {textures.Length} textures.");
+        }
 
         // generated a list of environments
         for (int i = 0; i < contentCount; ++i)

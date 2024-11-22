@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using System.IO;
 using UnityEditor.Recorder;
 using UnityEditor.Recorder.Input;
@@ -53,3 +55,5 @@ namespace UnityEngine.Recorder.Examples
         }
     }
 }
+
+#endif
